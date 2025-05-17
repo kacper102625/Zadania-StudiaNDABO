@@ -38,7 +38,7 @@ Aby skorzystać z repozytorium, wykonaj poniższe kroki:
 - GitHub Docs: [docs.github.com/en](docs.github.com/en)
 - GitHub Learning Lab: [github.com/apps/github-learning-lab](github.com/apps/github-learning-lab)
 - Interaktywny kurs Git: [learngitbranching.js.org](learngitbranching.js.org)
-- Cheat sheet Markdown: [github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]
+- Cheat sheet Markdown: [github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](github.com/adam-p/markdown-here/wiki/)Markdown-Cheatsheet
 
 ## Licencja
 Ten projekt jest licencjonowany pod [licencją MIT](https://pl.wikipedia.org/wiki/Licencja_MIT).
