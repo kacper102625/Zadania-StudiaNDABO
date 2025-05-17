@@ -24,14 +24,14 @@ Aby skorzystać z repozytorium, wykonaj poniższe kroki:
     cd Zadania-StudiaNDABO
     ```
 ## Użycie
-    Uruchomienie aplikacji w zależności od technologii:
+Uruchomienie aplikacji w zależności od technologii:
     ```
     python main.py  # Dla Python
     node index.js   # Dla JavaScript
     javac Main.java && java Main  # Dla Java
     ```
 ## Historia
-    Aby sprawdzić historię commitów, użyj:
+Aby sprawdzić historię commitów, użyj:
     ```
     git log --oneline --graph --decorate --all
     ```
