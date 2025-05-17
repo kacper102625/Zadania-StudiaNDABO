@@ -16,9 +16,9 @@ Projekt zawiera zadania związane z przedmiotem **Narzędzia do Automatyzacji Bu
 ## Instalacja
 Aby skorzystać z repozytorium, wykonaj poniższe kroki:
 1. Sklonuj repozytorium:
-   ```
-   git clone https://github.com/kacper102625/Zadania-StudiaNDABO.git
-   ```
+    ```
+    git clone https://github.com/kacper102625/Zadania-StudiaNDABO.git
+    ```
 2. Przejdź do folderu projektu
     ```
     cd Zadania-StudiaNDABO
