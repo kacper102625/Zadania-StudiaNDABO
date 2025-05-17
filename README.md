@@ -2,12 +2,11 @@
 Zadania na przedmiot studiów Narzędzia do Automatyzacji budowy oprogramowania
 
 ## Spis treści
-[Opis projektu](#opis-projektu)
-[Instalacja](#instalacja)
-[Użycie](#użycie)
-[Historia](#historia)
-[Autorzy](Autorzy)
-
+- [Opis projektu](#opis-projektu)
+- [Instalacja](#instalacja)
+- [Użycie](#użycie)
+- [Historia](#historia)
+- [Autorzy](Autorzy)
 
 ## Opis projektu
 Projekt zawiera zadania związane z przedmiotem **Narzędzia do Automatyzacji Budowy Oprogramowania**.
