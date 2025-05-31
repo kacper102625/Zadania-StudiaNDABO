@@ -38,7 +38,7 @@ Aby sprawdzić historię commitów, użyj:
     
 ## Rozwiązywanie konfliktów w projekcie
 
-Podczas łączenia gałęzi `feature/header-design-a` oraz `feature/header-design-b` z `main` wystąpił konflikt w pliku `src/components/header.html`.
+Podczas łączenia gałęzi `feature/header-design-a` oraz `feature/header-design-b` z `main` wystąpił konflikt w pliku `header.html`.
 
 ### Opis konfliktu
 
@@ -49,10 +49,10 @@ Obie gałęzie zmieniały ten sam fragment nagłówka strony, ale w różny spos
 
 ### Proces rozwiązania konfliktu
 
-1. Git oznaczył konflikt w pliku `src/components/header.html`.
+1. Git oznaczył konflikt w pliku `header.html`.
 2. Ręcznie przeanalizowano różnice i połączono zmiany, tak aby zachować zarówno nowy styl, jak i poprawioną strukturę HTML.
 3. Sprawdzono działanie nagłówka po scaleniu — wszystko wyświetla się poprawnie.
-4. Zatwierdzono rozwiązanie konfliktu w repozytorium za pomocą:
+4. Zatwierdzono rozwiązanie konfliktu w repozytorium.
 
 ## Bibliografia
 - Oficjalna dokumentacja Git: [git-scm.com/doc](git-scm.com/doc)
