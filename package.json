@@ -1,0 +1,27 @@
+{
+  "name": "zadania-studiandabo",
+  "version": "1.0.0",
+  "description": "Zadania na przedmiot studiów Narzędzia do Automatyzacji budowy oprogramowania",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kacper102625/Zadania-StudiaNDABO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kacper102625/Zadania-StudiaNDABO/issues"
+  },
+  "homepage": "https://github.com/kacper102625/Zadania-StudiaNDABO#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
