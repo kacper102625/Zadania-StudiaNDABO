@@ -54,7 +54,20 @@ Obie gałęzie zmieniały ten sam fragment nagłówka strony, ale w różny spos
 3. Sprawdzono działanie nagłówka po scaleniu — wszystko wyświetla się poprawnie.
 4. Zatwierdzono rozwiązanie konfliktu w repozytorium.
 
-## Bibliografia
+### Funkcja dodaj
+
+Funkcja `dodaj(a, b)` przyjmuje dwie liczby i zwraca ich sumę.
+
+## Przykład użycia:
+
+```python
+from funkcje import dodaj
+
+wynik = dodaj(2, 3)
+print(wynik)  # 5
+```
+
+### Bibliografia
 - Oficjalna dokumentacja Git: [git-scm.com/doc](git-scm.com/doc)
 - Oficjalna książka Pro Git: [git-scm.com/book/pl/v2](git-scm.com/book/pl/v2)
 - GitHub Docs: [docs.github.com/en](docs.github.com/en)
@@ -62,9 +75,9 @@ Obie gałęzie zmieniały ten sam fragment nagłówka strony, ale w różny spos
 - Interaktywny kurs Git: [learngitbranching.js.org](learngitbranching.js.org)
 - Cheat sheet Markdown: [github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-## Licencja
+### Licencja
 Ten projekt jest licencjonowany pod [licencją MIT](https://pl.wikipedia.org/wiki/Licencja_MIT).
 
-## Autorzy
+### Autorzy
 - Kacper – [GitHub](https://github.com/kacper102625)
 
