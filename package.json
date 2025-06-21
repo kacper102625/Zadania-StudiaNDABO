@@ -1,9 +1,11 @@
 {
-  "name": "zadania-studiandabo",
+  "name": "moj projekt",
   "version": "1.0.0",
   "description": "Zadania na przedmiot studiów Narzędzia do Automatyzacji budowy oprogramowania",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
+    "build": "some-build-command",
     "test": "jest"
   },
   "repository": {
