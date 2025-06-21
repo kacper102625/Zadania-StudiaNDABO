@@ -1,5 +1,16 @@
-# Zadania-StudiaNDABO
-Zadania na przedmiot studiów Narzędzia do Automatyzacji budowy oprogramowania
+# Projekt: Zadania-StudiaNDABO
+
+Aplikacja webowa stworzona w ramach laboratoriów 1 i 2 z przedmiotu **"Narzędzia do Automatyzacji Budowy Oprogramowania"**.  
+Projekt został zrealizowany z wykorzystaniem pełnego pipeline’u **CI/CD**: testy, budowa, automatyczne wdrożenie na Render.com.
+
+---
+
+## Jak uruchomić lokalnie?
+
+```bash
+npm install
+npm start
+```
 
 ## Spis treści
 - [Opis projektu](#opis-projektu)
