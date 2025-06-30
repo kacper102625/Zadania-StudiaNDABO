@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <title>Kalkulator</title>
+</head>
+<body>
+    <h1>Kalkulator</h1>
+
+    <input id="inputA" type="number" placeholder="Liczba A" />
+    <input id="inputB" type="number" placeholder="Liczba B" />
+    <select id="operation">
+        <option value="add">Dodawanie</option>
+        <option value="subtract">Odejmowanie</option>
+        <option value="multiply">Mnożenie</option>
+        <option value="divide">Dzielenie</option>
+        <option value="power">Potęgowanie</option>
+        <option value="sqrt">Pierwiastek (z A)</option>
+    </select>
+    <button onclick="calculate()">Oblicz</button>
+
+    <h2>Wynik: <span id="result"></span></h2>
+
+    <script>
+    async function calculate() {
+        const a = parseFloat(document.getElementById('inputA').value);
+        const b = parseFloat(document.getElementById('inputB').value);
+        const op = document.getElementById('operation').value;
+
+        const payload = { operation: op, a: a };
+        if(op !== 'sqrt') {
+            payload.b = b;
+        }
+
+        const response = await fetch('/calculate', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify(payload)
+        });
+
+        const data = await response.json();
+        if(data.error) {
+            document.getElementById('result').textContent = "Błąd: " + data.error;
+        } else {
+            document.getElementById('result').textContent = data.result;
+        }
+    }
+    </script>
+</body>
+</html>
